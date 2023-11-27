@@ -13,8 +13,7 @@ module.exports = () => {
     output: {
       filename: "[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
-      assetModuleFilename: "assets/icons/[name][ext][query]",
-    },
+      },
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
